@@ -1,0 +1,5 @@
+*.swp
+*.o
+ant
+tags
+.ycm_extra_conf*
