@@ -146,27 +146,35 @@ int main() {
 			int mv = 1;
 			switch (ch) {
 				case 'j':
+				case '2':
 					move_ant(1, 0);
 					break;
 				case 'k':
+				case '8':
 					move_ant(-1, 0);
 					break;
 				case 'h':
+				case '4':
 					move_ant(0, -1);
 					break;
 				case 'l':
+				case '6':
 					move_ant(0, 1);
 					break;
 				case 'y':
+				case '7':
 					move_ant(-1, -1);
 					break;
 				case 'u':
+				case '9':
 					move_ant(-1, 1);
 					break;
 				case 'b':
+				case '1':
 					move_ant(1, -1);
 					break;
 				case 'n':
+				case '3':
 					move_ant(1, 1);
 					break;
 				case 'g':
